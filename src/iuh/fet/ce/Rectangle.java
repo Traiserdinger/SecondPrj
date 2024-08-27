@@ -65,10 +65,18 @@ public class Rectangle {
         }
     }
 
+    /**
+     * Description: Caculate the Area of Rectangle with Length and Width
+     * @return
+     */
     public double getArea(){
         return getLength()*getWidth();
     }
 
+    /**
+     * Description: Caculate the Perimeter of Rectangle with Length and Width
+     * @return
+     */
     public double getPerimeter(){
         return 2*(getLength()+getWidth());
     }

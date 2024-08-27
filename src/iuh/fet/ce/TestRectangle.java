@@ -7,7 +7,11 @@ import java.util.Scanner;
  * @version 1.0
  * @created 27-Aug-2024 15:28 PM
  */
+
 public class TestRectangle {
+    /**
+     * Description: Receive the length and width as input and calculate the perimeter and area of the rectangle.
+     */
     public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
             double l,w;
